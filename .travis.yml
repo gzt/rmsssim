@@ -13,8 +13,6 @@ r:
 
 r_packages:
   - covr
-  - raster
-  - rdgal
 
 after_success:
   - Rscript -e 'library(covr); codecov()'
