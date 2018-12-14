@@ -1,0 +1,28 @@
+Package: rmsssim
+Title: SSIM and MS-SSIM in R
+Version: 0.1.0
+Authors@R: 
+    c(person(given = "Colin",
+             family = "Robertson",
+             role = c("aut"),
+             email = "crobertson@wlu.ca"),
+      person(given = "Sriram",
+             family = "Ganapathi Subramanian",
+             role = "aut",
+             email = "s2ganapa@uwaterloo.ca"),
+      person(given = "Geoffrey",
+             family = "Thompson",
+             role = c("cre", "ctb"),
+             email = "gzthompson@gmail.com"))
+Description: Computes MS-SSIM and SSIM, image quality metrics.
+    This is from the spatialcompare package available at
+    https://github.com/colinr23/spatialcompare. I, gzthompson,
+    have added little to this, I've only pulled these functions 
+    out of an already-existing package and made minor changes.
+License: MIT + file LICENSE
+Imports: 
+    raster
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
