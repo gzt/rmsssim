@@ -33,6 +33,8 @@ devtools::install_github('gzt/rmsssim')
 
 Installing this may still be a bit frustrating, as `rgdal` is non-trivial to get working. 
 On Fedora, make sure to run `dnf install proj proj-epsg gdal gdal-devel` first. 
-On other systems, change the commands accordingly.
+On other systems, change the commands accordingly. This 
+[StackOverflow answer](https://stackoverflow.com/questions/15248815/rgdal-package-installation)
+has some guidance.
 
 Please note that the 'rmsssim' project is released with a [Contributor Code of Conduct](.github/CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms.
