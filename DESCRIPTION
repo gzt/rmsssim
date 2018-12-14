@@ -4,7 +4,7 @@ Version: 0.1.0
 Authors@R: 
     c(person(given = "Colin",
              family = "Robertson",
-             role = c("aut"),
+             role = "aut",
              email = "crobertson@wlu.ca"),
       person(given = "Sriram",
              family = "Ganapathi Subramanian",
@@ -16,13 +16,18 @@ Authors@R:
              email = "gzthompson@gmail.com"))
 Description: Computes MS-SSIM and SSIM, image quality metrics.
     This is from the spatialcompare package available at
-    https://github.com/colinr23/spatialcompare. I, gzthompson,
-    have added little to this, I've only pulled these functions 
-    out of an already-existing package and made minor changes.
+    https://github.com/colinr23/spatialcompare. I, gzthompson, have added
+    little to this, I've only pulled these functions out of an
+    already-existing package and made minor changes.
 License: GPL-3
 Imports: 
-    raster
+    raster,
+    rgdal
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
+Depends: 
+    R (>= 3.1)
+Suggests: 
+    covr
