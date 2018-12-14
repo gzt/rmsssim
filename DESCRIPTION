@@ -19,7 +19,7 @@ Description: Computes MS-SSIM and SSIM, image quality metrics.
     https://github.com/colinr23/spatialcompare. I, gzthompson,
     have added little to this, I've only pulled these functions 
     out of an already-existing package and made minor changes.
-License: MIT + file LICENSE
+License: GPL-3
 Imports: 
     raster
 Encoding: UTF-8
