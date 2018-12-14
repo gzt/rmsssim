@@ -66,8 +66,8 @@ getGauss <- function(sigma, w) {
 # ---- End of roxygen documentation ----
 
 ssim <- function(img1, img2, w, gFIL=TRUE, edge=FALSE, ks=c(0.01, 0.03)) {
-  img1 <- raster::as.raster(img1)
-  img2 <- raster::as.raster(img2)
+  img1 <- raster::raster(img1)
+  img2 <- raster::raster(img2)
   #set constants
   N <- FALSE
   #library(raster)
@@ -151,8 +151,8 @@ ssim <- function(img1, img2, w, gFIL=TRUE, edge=FALSE, ks=c(0.01, 0.03)) {
 # ---- End of roxygen documentation ----
 
 msssim <- function(img1, img2, w, gFIL=TRUE, edge=FALSE, ks=c(0.01, 0.03), level=5, weight=c(0.0448, 0.2856, 0.3001, 0.2363, 0.1333), method='product') {
-  im1 <- raster::as.raster(img1)
-  im2 <- raster::as.raster(img2)
+  im1 <- raster::raster(img1)
+  im2 <- raster::raster(img2)
   N <- FALSE
   sssimArray <- list()
   sssimArray[[1]] <- ssim(im1, im2, w, gFIL, edge, ks)
