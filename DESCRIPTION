@@ -28,7 +28,7 @@ LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
 Depends: 
-    R (>= 3.5)
+    R (>= 3.3)
 Suggests: 
     covr,
     testthat
